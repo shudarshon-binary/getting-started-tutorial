@@ -1,6 +1,9 @@
 # Output of source code compilation.
 # For example Bonita includes helper Groovy classes such as BonitaUsers (with for example getProcessInstanceInitiator method).
 # Sources (e.g. BonitaUsers.groovy) are located in src-providedGroovy folder and build result (e.g. BonitaUsers.class) is located in bin folder.
+*db.lock.db
+*db.mv.db
+*db.trace.db
 /bin
 
 # BDM jar generated from the BDM definition (bom.xml)
